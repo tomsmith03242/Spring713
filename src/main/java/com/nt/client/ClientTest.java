@@ -10,6 +10,10 @@ import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
 import com.nt.controller.EmployeeController;
 import com.nt.vo.EmployeeVO;
 
+/**
+ * @author Unanimous
+ *
+ */
 public class ClientTest {
 
 	public static void main(String[] args) {

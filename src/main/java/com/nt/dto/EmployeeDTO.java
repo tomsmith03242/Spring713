@@ -2,6 +2,10 @@ package com.nt.dto;
 
 import java.io.Serializable;
 
+/**
+ * @author Unanimous
+ *
+ */
 public class EmployeeDTO implements Serializable {
 	
 	private String ename;

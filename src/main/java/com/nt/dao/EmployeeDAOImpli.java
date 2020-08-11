@@ -7,16 +7,26 @@ import javax.sql.DataSource;
 
 import com.nt.bo.EmployeeBO;
 
+/**
+ * @author Unanimous
+ *
+ */
 public class EmployeeDAOImpli implements EmployeeDAO {
 	
 	private static final String INSERT_RECORDS="INSERT INTO emp_reg(ENAME,EADD,EDEPT,EDESIGNATION,BSALARY,EDA,EHRA,GROSSSALARY) VALUES (?,?,?,?,?,?,?,?)";
 	
 	private DataSource ds;
 	
+	/**
+	 * @param ds
+	 */
 	public EmployeeDAOImpli(DataSource ds) {
 		this.ds = ds;
 	}
 
+	/**
+	 *
+	 */
 	@Override
 	public int insert(EmployeeBO bo) throws Exception {
 		Connection con=null;

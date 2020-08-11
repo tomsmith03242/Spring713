@@ -1,5 +1,9 @@
 package com.nt.vo;
 
+/**
+ * @author Unanimous
+ *
+ */
 public class EmployeeVO {
 	
 	private String ename;

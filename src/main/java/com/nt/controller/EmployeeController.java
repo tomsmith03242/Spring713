@@ -4,14 +4,26 @@ import com.nt.dto.EmployeeDTO;
 import com.nt.service.EmployeeSERVICE;
 import com.nt.vo.EmployeeVO;
 
+/**
+ * @author Unanimous
+ *
+ */
 public class EmployeeController {
 	
 	private EmployeeSERVICE service;
 		
- public EmployeeController(EmployeeSERVICE service) {
+ /**
+ * @param service
+ */
+public EmployeeController(EmployeeSERVICE service) {
 		this.service = service;
  }
  
+/**
+ * @param vo
+ * @return
+ * @throws Exception
+ */
 public String process(EmployeeVO vo)throws Exception {
 	
 	EmployeeDTO dto=null;
