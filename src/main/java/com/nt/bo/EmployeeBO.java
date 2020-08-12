@@ -3,7 +3,8 @@ package com.nt.bo;
 /**
  * @author Unanimous
  *
- */
+ */ 
+
 public class EmployeeBO {
 	
 	private String ename;
